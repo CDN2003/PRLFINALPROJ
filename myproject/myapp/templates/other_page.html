@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.pinimg.com/originals/62/70/20/6270204c9cd8399a940f4ecb46b3167b.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat; /* Ensure that the background image does not repeat */
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            right: 3%;
+            transform: translate(0%, -50%);
+            background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value for background transparency */
+            border-radius: 15px;
+            padding: 90px;
+            width: 340px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add drop shadow */
+        }
+        
+        .container h1 {
+            margin-bottom: 40px;
+        }
+        .container h2 {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .container h4 {
+            margin-bottom: 0px;
+        }
+
+        #council-text-underline {
+            font-size: 16px;
+            text-decoration: underline;
+            color: blue;
+        }
+
+        .container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+    </style>
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign UP</h1>
+        <h2>Username</h2>
+        <input type="text" placeholder="Username">
+        <h2>Password</h2>
+        <input type="text" placeholder="Password">
+        <h4>Already have an accout?</h4>
+        <p id="council-text-underline">Sign In</p>
+    </div>
+</body>
+</html>
